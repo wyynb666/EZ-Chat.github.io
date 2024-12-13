@@ -31,7 +31,7 @@ let langData = {};
 
 // Function to load the language file based on the selected language
 function loadLanguageFile(lang) {
-    fetch(`/EZ-Chat.github.io/data/${lang}.json`)  // Fetch the corresponding language JSON file
+    fetch(`https://wyynb666.github.io/EZ-Chat.github.io/data/${lang}.json`)  // Fetch the corresponding language JSON file
         .then(response => {
             if (!response.ok) {
                 throw new Error('Language file not found'); // If the file is not found, throw an error
