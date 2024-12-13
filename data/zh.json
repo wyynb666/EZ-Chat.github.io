@@ -1,0 +1,30 @@
+{
+  "nav-home": "首页",
+  "nav-download": "下载",
+  "nav-update": "更新日志",
+  "nav-setting": "选择设置项",
+  "nav-language": "语言",
+  "nav-theme": "主题",
+  "nav-theme1": "浅色",
+  "nav-theme2": "深色",
+  "nav-login": "登录",
+
+  "title": "EZ-Chat",
+  "subtitle": "一款轻便简洁的聊天软件",
+  "title-download": "下载",
+
+  "feature1": "轻松上手",
+  "subfeature1": "登录自己的EZ-Chat账号，即可快速聊天",
+  "feature2": "聊天记录",
+  "subfeature2": "消息多端同步，用户可查询之前的聊天记录",
+  "feature3": "多平台支持",
+  "subfeature3": "支持多种系统，iOS、Android 和 Windows，多端便捷使用",
+  "function1": "社交能力",
+  "subfunction1": "用户可以创建群聊、加入已有的群聊、关注他人，进行个人主页的维护等",
+  "function2": "文件传输",
+  "subfunction2": "支持文件传输，用户可以在聊天窗口中直接传输文件，增加了聊天的效率和便利性",
+  "function3": "安全可靠",
+  "subfunction3": "采用了最先进的加密技术，确保用户的聊天记录和个人信息得到了充分的保护",
+
+  "bottom-download": "软件下载"
+}

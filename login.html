@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ-Chat Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+<div class="main">
+    <div class="nav">
+        <div class="nav-left">
+            <ul>
+                <li><a href="index.html"><img src="imgs/logo.png" alt="logo.png"></a></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="download.html">下载</a></li>
+                <li><a href="update.html">更新日志</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <button class="settings-button" onclick="toggleOptions()">
+                <ion-icon name="settings-sharp"></ion-icon>
+            </button>
+            <div class="options-container" id="options-container">
+                <div class="options" id="main-options">
+                    <select onchange="showSubOptions(this)">
+                        <option value="">选择设置项</option>
+                        <option value="language">语言</option>
+                        <option value="theme">主题</option>
+                    </select>
+                </div>
+                <div class="sub-options" id="language-options">
+                    <select>
+                        <option value="zh">中文</option>
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                    </select>
+                </div>
+                <div class="sub-options" id="theme-options">
+                    <select>
+                        <option value="light">浅色</option>
+                        <option value="dark">深色</option>
+                    </select>
+                </div>
+            </div>
+            <ul>
+                <li><a href="login.html">登录</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="login-form">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" class="checkbox">
+                    Remember me
+                </label>
+                <a href="">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn" id="login-btn">Login</button>
+            <div class="register">
+                <p>
+                    Don't have an account?
+                    <a href="#" class="register-link">Register</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <div class="register-form" style="display: none;">
+        <h2>Register</h2>
+        <form action="#Register">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" class="checkbox">
+                    I agree to the terms
+                </label>
+            </div>
+            <button type="submit" class="btn" id="register-btn">Register</button>
+            <div class="register">
+                <p>
+                    Already have an account?
+                    <a href="#" class="login-link">Login</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="js/login.js"></script>
+<script src="js/main.js"></script>
+<!--ionic.io网站上的图标-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

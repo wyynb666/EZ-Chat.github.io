@@ -1,0 +1,31 @@
+{
+  "title": "EZ-Chat Simple Chat Application",
+  "nav-home":"Home",
+  "nav-download":"Download",
+  "nav-update":"Update logs",
+  "nav-setting":"Select Settings",
+  "nav-language":"Language",
+  "nav-theme":"Theme",
+  "nav-theme1":"light",
+  "nav-theme2":"dark",
+  "nav-login":"Login",
+
+  "title": "EZ-Chat",
+  "subtitle": "A Easy and Light Chat App",
+  "title-download": "Download",
+
+  "feature1": "Easy to Use",
+  "subfeature1": "Log in to your EZ-Chat account to quickly start chatting",
+  "feature2": "Chat History",
+  "subfeature2": "Messages are synchronized across multiple devices, and users can view past chat history",
+  "feature3": "Multi-platform Support",
+  "subfeature3": "Supports multiple systems, including iOS, Android, and Windows for convenient cross-platform use",
+  "function1": "Social Features",
+  "subfunction1": "Users can create group chats, join existing ones, follow others, and maintain personal profiles",
+  "function2": "File Transfer",
+  "subfunction2": "Supports file transfers, allowing users to send files directly within the chat window for better efficiency and convenience",
+  "function3": "Secure and Reliable",
+  "subfunction3": "Uses the most advanced encryption technology to ensure the protection of users' chat history and personal information",
+
+  "bottom-download": "Download Software"
+}

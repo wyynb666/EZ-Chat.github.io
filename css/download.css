@@ -1,0 +1,98 @@
+@import url("main.css");
+
+/* 导航 */
+.nav {
+    background-color: rgba(80,105,93,0.6);
+}
+
+/* 下载 */
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 201px);
+}
+
+.download .download-platform {
+    display: flex;
+}
+
+.download .download-platform .download-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 64px;
+    padding-bottom: 32px;
+}
+
+.download .download-platform .download-item svg {
+    width: 128px;
+    height: 128px;
+    margin: 64px;
+}
+
+.download .download-platform .download-item svg path {
+    fill: #999;
+    transition: all 0.5s;
+}
+
+.download .download-platform .download-item .name {
+    margin: 0;
+    font-size: 28px;
+}
+
+.download .download-platform .download-item .version {
+    margin: 0;
+    font-size: 20px;
+}
+
+.download .download-platform .download-item .download-button {
+    width: 120px;
+    height: 40px;
+    background-color: #0188fb;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 24px 0;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+
+.download .download-platform .download-item .download-button:hover {
+    opacity: 0.5;
+}
+
+.download .download-platform .download-item .update {
+    color: #0188fb;
+    transition: all 0.5s;
+}
+
+.download .download-platform .download-item .update:hover {
+    opacity: 0.5;
+}
+
+.download .download-platform .download-item:hover {
+    box-shadow: 0 0 32px #dbdbdb;
+}
+
+.download .download-platform .download-item:hover svg path {
+    fill: #00aff5;
+}
+
+/* 页脚 */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid #ededed;
+}
+
+.footer .copy,
+.footer .studio {
+    color: gray;
+}

@@ -1,0 +1,30 @@
+{
+  "nav-home": "Startseite",
+  "nav-download": "Herunterladen",
+  "nav-update": "Änderungsprotokoll",
+  "nav-setting": "Einstellungen auswählen",
+  "nav-language": "Sprache",
+  "nav-theme": "Thema",
+  "nav-theme1": "Hell",
+  "nav-theme2": "Dunkel",
+  "nav-login": "Anmelden",
+
+  "title": "EZ-Chat",
+  "subtitle": "Eine leichte und einfache Chat-Anwendung",
+  "title-download": "Herunterladen",
+
+  "feature1": "Einfach zu bedienen",
+  "subfeature1": "Melden Sie sich mit Ihrem EZ-Chat-Konto an und beginnen Sie sofort zu chatten",
+  "feature2": "Chat-Verlauf",
+  "subfeature2": "Nachrichten werden auf mehreren Geräten synchronisiert, Benutzer können frühere Chats einsehen",
+  "feature3": "Multiplattform-Unterstützung",
+  "subfeature3": "Unterstützt mehrere Systeme, iOS, Android und Windows, bequem auf verschiedenen Geräten nutzen",
+  "function1": "Soziale Funktionen",
+  "subfunction1": "Benutzer können Gruppenchats erstellen, bestehenden Gruppen beitreten, anderen folgen und ihr Profil pflegen",
+  "function2": "Dateitransfer",
+  "subfunction2": "Unterstützt den Dateitransfer, Benutzer können Dateien direkt im Chatfenster senden, was die Effizienz und Bequemlichkeit erhöht",
+  "function3": "Sicher und zuverlässig",
+  "subfunction3": "Verwendet die fortschrittlichste Verschlüsselungstechnologie, um sicherzustellen, dass Nachrichten und persönliche Informationen geschützt sind",
+
+  "bottom-download": "Software herunterladen"
+}
